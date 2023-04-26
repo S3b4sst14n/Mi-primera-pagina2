@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Boku no hero</title>
+<meta charset="UTF-5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="img/img_1.jpeg">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-green">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-whatsapp"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-light-green">
+    <h1 class="w3-xxxlarge"><b>¡My hero academy!</b></h1>
+    <h4>Bienvenidos a <span class="w3-tag">Musutafu</span></h4>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/Imagen.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b></b></h1>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>One for all</h3>
+          <h5>
+              <span class="w3-opacity">Midoriya</span>
+          </h5>
+        </div>
+        <img src="/img/Imagen_1.webp" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+        <div class="w3-justify">
+          
+          <p><strong> Izuku Midoriya </strong>también conocido como Deku, es el protagonista principal de la serie de manga y anime My Hero Academia.
+            
+            A pesar de que Izuku nació sin don, logró captar la atención del legendario héroe All Might y desde entonces se ha convertido en su alumno cercano, así como en un estudiante de la Clase 1-A en la Academia U.A.. All Might le transfirió su don a Izuku, convirtiéndolo en el noveno y actual usuario del One For All.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/Imagen_3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Uraraka <span class="w3-opacity w3-medium">Junio 6/2022, 6:32 PM</span></h4>
+                <p>¿Acaso no es lindo? 🤩</p>
+                    </div>
+            <div class="w3-col l2 m3">
+                <img src="img/Imagen_4.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Bakugo <span class="w3-opacity w3-medium">Junio 7/2022, 6:32 PM</span></h4>
+                <p>No lo es.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>¿Sera el final de All Might?</h3>
+          <h5>All Might le hereda su poder a Deku</h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/Imagen_5.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Deku</strong> ¿Como obtuvo su don?</p>
+          <p>Hace mucho tiempo, All For One, un hombre con un Don que podía robar otros Dones y regalarlos, le dio a su hermano menor, Yoichi Shigaraki, aparentemente Sin Don, un Don que le permitió acumular poder dentro de su cuerpo. Sin embargo, sin que alguno de los dos lo supiera, Yoichi ya tenía un Don sin otro efecto más que el que podía transferir ese Don a otros. El Don de Transferencia y el Don de Acumulación de poder se fusionaron en uno y desde entonces se convirtieron en One For All.</p>
+            <p>Es de mucho debatir para elegir un sucesor, y poco antes de que comenzara a enseñar en la U.A. para ayudarlo a encontrar uno, se encuentra con Izuku, un chico sin Don como él. Impresionado con el deseo de Izuku de convertirse en un héroe y con su espíritu desinteresado para salvar, lo elige para convertirse en el noveno y actual portador.
+          </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+        
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/img_1.jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jhonathan <span class="w3-opacity w3-medium">Diciembre/11/2021, 7:22 PM</span></h4>
+                <p>Joder... Que pedazo de episodio... Deku es un muy buen ejemplo de perseverancia, mis felicitaciones!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Imagen_9.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Un Usuario random <span class="w3-opacity w3-medium">April 8, 2023, 10:32 PM</span></h4>
+                <p>¿Por que Midoriya nacio sin poderes?</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/images.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Mr good <span class="w3-opacity w3-medium">April 7, 2021, 9:12 PM</span></h4>
+                <p>Me encanta este pequeño resumen!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/homer.gif" alt="Computer man" style="width:393px;"class="w3-padding-16">
+        <div class="w3-container w3-black">
+          <h4>El comentario mas random:</h4>
+          <p>Miguel: Apuesto 10 dolares a que naruto le gana con los ojos cerrados</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post mas gracioosos</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/Imagen_7.webp" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">All Might</span>
+            <br>
+            <span>Felicidades joven Midoriya nunca olvides que puedes ir mas allá de tu potencial.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/Imagen_6.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Kaminari</span>
+            <br>
+            <span>Los villanos son deviles los heroes son muy pro's!</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/Imagen_4.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Bakugo</span>
+            <br>
+            <span>Tengo que demostrar que puedo ser el heroe #1</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/Batman.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Sebitas</span>
+            <br>
+            <span>I'm  Batman</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Resumen</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shoto</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Recomendaciones</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">UA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Villanos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ver online</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Personajes</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Regresar</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trajes</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/Imagen_3.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/img_1.jpeg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/Imagen_6.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/Imagen_7.webp" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Volver al inicio</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
